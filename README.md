@@ -3,7 +3,7 @@
 
 ## Descripción
 
-TecnoMovil Data es un proyecto académico desarrollado en Java
+TecnoMovil Data es un proyecto desarrollado en Java
 para analizar registros simulados del sistema de transporte
 urbano de TecnoValle.
 
@@ -38,7 +38,7 @@ inmutabilidad.
 
 ## Ejecución
 
-Abrir el proyecto en IntelliJ IDEA y ejecutar:
+Abre el proyecto en IntelliJ IDEA y ejecuta:
 
 - Main: demostración y análisis de registros.
 - PruebasAnalizador: validación de las funcionalidades.
@@ -53,18 +53,3 @@ Se realizaron pruebas con datos simulados:
 - 6.000.000 de registros procesados en 60 lotes.
 - Tiempo registrado en una prueba de carga: 12,790 segundos.
 
-Los tiempos de ejecución pueden variar según el equipo.
-
-## Consideraciones
-
-Los datos son simulados y no representan movimientos
-reales de pasajeros.
-
-La detección de rutas críticas utiliza un umbral sobre
-la cantidad de entradas registradas. Por lo tanto,
-no representa la ocupación simultánea real de los vehículos.
-
-## Propósito académico
-
-Proyecto desarrollado como evidencia de aprendizaje
-sobre programación funcional en Java.

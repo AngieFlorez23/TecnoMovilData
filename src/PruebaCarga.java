@@ -19,7 +19,7 @@ public class PruebaCarga {
         );
 
         int cantidadTotal = 6_000_000;
-        int tamanoLote = 100_000;
+        int tamanoLote = 1000_000;
         int numeroLotes = cantidadTotal / tamanoLote;
 
         // Resultados acumulados
